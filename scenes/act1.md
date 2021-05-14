@@ -804,14 +804,14 @@ bb({eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: They were counting on us to come and now we're betraying their trust? Do you wanna die alone?!
+b: Họ đang trông đợi chúng tôi đến và bây giờ chúng tôi đang phản bội lòng tin của họ? Bạn có muốn chết một mình không?!
 
 {{if _.fifteencigs}}
-b: FIFTEEN. CIGARETTES.
+b: MƯỜI LĂM. HÀNG HÓA.
 {{/if}}
 
 {{if _.whalepoop}}
-b: WHALE. POOP.
+b: BÁN HÀNG. DỪNG LẠI.
 {{/if}}
 
 ```
@@ -826,7 +826,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as yes!
+h: Im đi, tôi sẽ giữ nó như có!
 
 (#act1f)
 
@@ -837,7 +837,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Don't you know about human stampedes?
+b: Bạn không biết về người đóng dấu?
 
 ```
 bb({body:"fear", mouth:"small", eyes:"narrow"});
@@ -845,7 +845,7 @@ hong({eyes:"sad", mouth:"sad"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: In 2003 a Rhode Island nightclub had a fire and the panic made people jam the exits so 100 people burned to death-
+b: Năm 2003, một hộp đêm ở Rhode Island đã xảy ra hỏa hoạn và sự hoảng loạn khiến mọi người kẹt cứng các lối ra nên 100 người bị chết cháy-
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"fear"});
@@ -853,14 +853,14 @@ hong({mouth:"shock"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DO YOU WANT THAT TO HAPPEN TO US-
+b: BẠN CÓ MUỐN ĐẾN VỚI CHÚNG TÔI KHÔNG-
 
 ```
 bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 2.5;
 ```
 
-b: SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY NO SAY N-
+b: NÓI KHÔNG NÓI KHÔNG NÓI KHÔNG NÓI KHÔNG NÓI KHÔNG NÓI KHÔNG NÓI KHÔNG NÓI KHÔNG N-
 
 
 ```
@@ -876,7 +876,7 @@ hong({eyes:"anger", mouth:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll change my answer to no! God!
+h: Im đi, tôi sẽ thay đổi câu trả lời của tôi thành không! Chúa Trời!
 
 (#act1f)
 
@@ -910,9 +910,9 @@ h: Có thể mình không nên nói không về lời mời?
 
 `bb({eyes:"anger"})`
 
-b: Everybody was counting on us!
+b: Mọi người đã tin tưởng vào chúng tôi!
 
-b: ...to leave them alone and let them have a nice party without a horrible disgusting {{if _.whitebread}}white-bread-munching{{/if}} creep like u--
+b: ...để họ yên và để họ có một bữa tiệc vui vẻ mà không có một tên ghê tởm {{if _.whitebread}}white-bread-munching{{/if}} khủng khiếp như bạn--
 
 
 ```
@@ -928,7 +928,7 @@ hong({mouth:"anger", eyes:"anger"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Shut up shut up I'll keep it as no!
+h: Im đi, tôi sẽ giữ nó như không!
 
 (#act1f)
 
@@ -1418,39 +1418,39 @@ b: Speaking of parties, about this weekend's invite. Here's my FINAL decision:
 
 # act1h
 
-b: We sh--
+b: Chúng  sh--
 
 ```
 bb({eyes:"wat", mouth:"small"});
 hong({body:"2_fuck"});
 ```
 
-h: *^FUCK^.*
+h: *^ĐỆT^.*
 
 `hong({body:"2_you"});`
 
-h: YOU.
+h: MẸ.
 
 (...500)
 
-b: w
+b: cái
 
 (...1500)
 
 `bb({eyes:"wat_2"});`
 
-b: wha?
+b: cái gì vậy?
 
 `hong({body:"phone1", eyes:"anger", mouth:"anger"});`
 
-h: I'm going to say YES to that party,
+h: Tôi sẽ nói CÓ với bên đó,
 
 {{if _.act1g=="go"}}
-h: NOT because you want me to, but because *I* want to.
+h: KHÔNG phải vì bạn muốn tôi, mà bởi vì *tôi* muốn.
 {{/if}}
 
 {{if _.act1g=="dont"}}
-h: Precisely BECAUSE you don't want me to.
+h: Chính xác VÌ bạn không muốn tôi.
 {{/if}}
 
 ```
@@ -1458,7 +1458,7 @@ hong({body:"putaway"});
 sfx("rustle");
 ```
 
-h: You're NOT in control of me.
+h: Bạn KHÔNG kiểm soát tôi.
 
 ```
 sfx("rustle2");
@@ -1503,11 +1503,11 @@ b: ..................
 
 `bb({mouth:"normal"});`
 
-[AHHHH WE'RE GONNA DIE](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AHHHH CHÚNG TÔI ĐANG CHẾT](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH EVERYONE HATES US](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AHHHH MỌI NGƯỜI GHÉT CHÚNG TÔI](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH WE'RE HORRIBLE PEOPLE](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AHHHH CHÚNG TÔI LÀ NHỮNG NGƯỜI KHỔNG LỒ](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
 
 # act1h_death
 
@@ -1516,7 +1516,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH WE'RE GONNA DIE AAAAAAHHHHHHH
+b: AHHHH CHÚNG TÔI ĐANG CHẾT AAAAAAHHHHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1534,7 +1534,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH EVERYONE HATES US AAAAAAHHHHHHH
+b: AHHHH MỌI NGƯỜI GHÉT CHÚNG TÔI AAAAAAHHHHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1552,7 +1552,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH WE'RE HORRIBLE PEOPLE AAAAAAHHHHHHH
+b: AHHHH CHÚNG TÔI LÀ NHỮNG NGƯỜI KHỔNG LỒ AAAAAAHHHHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1574,35 +1574,35 @@ n: CONGRATULATIONS
 
 (...500)
 
-n: YOU'VE SUCCESSFULLY PROTECTED YOUR HUMAN'S PHYSICAL + SOCIAL + MORAL NEEDS
+n: BẠN ĐÃ BẢO VỆ THÀNH CÔNG CÁC NHU CẦU VỀ THỂ CHẤT + XÃ HỘI + SỨC MẠNH CỦA CON NGƯỜI
 
-n: WHY, LOOK HOW GRATEFUL THEY ARE!
+n: TẠI SAO, HÃY XEM CHÚNG TỐT ĐẸP NHƯ THẾ NÀO!
 
 (...500)
 
-n: NOW THAT THEIR ENERGY IS ZERO, YOU CAN DIRECTLY CONTROL THEIR ACTIONS
+n: BÂY GIỜ NĂNG LƯỢNG CỦA HỌ LÀ KHÔNG CÓ, BẠN CÓ THỂ KIỂM SOÁT TRỰC TIẾP HÀNH ĐỘNG CỦA HỌ
 
 `bb({mouth:"smile", eyes:"normal"});`
 
-n: PICK YOUR ENDING MOVE
+n: PICK DI CHUYỂN KẾT THÚC CỦA BẠN
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
 n: *FINISH THEM*
 
-[{FIGHT: Punish your stressful phone!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{FIGHT: Hãy trừng phạt điện thoại căng thẳng của bạn!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Curl up in a ball and cry!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{FLIGHT: Cuộn tròn trong một quả bóng và khóc!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
 `bb({mouth:"normal", eyes:"narrow"})`
 
-b: Your phone was giving you a panic attack!
+b: Điện thoại của bạn đang mang đến cho bạn một cuộc tấn công hoảng loạn!
 
 `bb({eyes:"anger"})`
 
-b: Zuckerberg and Co are hijacking your mental health for venture capitalist money!
+b: Zuckerberg và Co đang chiếm đoạt sức khỏe tinh thần của bạn để lấy tiền đầu tư mạo hiểm!
 
 ```
 bb({body:"fear", eyes:"fear"});
@@ -1610,8 +1610,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Punish your phone! Destroy it! Kill it!
-
+b: Hãy trừng phạt điện thoại của bạn! Phá hủy nó! Giết nó!
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
 bb({body:"flail"});
@@ -1619,7 +1618,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL I--
+b: GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT NÓ GIẾT N--
 
 (#act1j)
 
@@ -1627,7 +1626,7 @@ b: KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL IT KILL 
 
 `bb({eyes:"fear", mouth:"normal"})`
 
-b: The whole world is filled with danger!
+b: Cả thế giới tràn ngập nguy hiểm!
 
 ```
 bb({body:"fear"});
@@ -1635,7 +1634,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Do like the armadillo! Curl up into a ball for self-defense!
+b: Làm như armadillo! Cuộn tròn vào một quả bóng để tự vệ!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1644,7 +1643,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "flight";
 ```
 
-b: CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CRY CURL UP AND CR-- 
+b: CUỘN TRÒN LÊN VÀ KHÓC CUỘN TRÒN LÊN VÀ KHÓC CUỘN TRÒN LÊN VÀ KHÓC CUỘN TRÒN LÊN VÀ KHÓC CUỘN TRÒN LÊN VÀ KHÓC CUỘN TRÒN LÊN VÀ KH--
 
 (#act1j)
 
