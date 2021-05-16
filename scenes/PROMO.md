@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: ĐÂY LÀ MỘT CON NGƯỜI
+n2: ĐÂY LÀ MỘT CÔ GÁI
 
 (...600)
 
@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: VÀ ĐÂY LÀ SỰ LO ÂU CỦA CON NGƯỜI
+n: VÀ ĐÂY LÀ SỰ LO SỢ CỦA CÔ ẤY
 
-n: _BẠN_ LÀ SỰ LO ÂU
+n: _BẠN_ LÀ SỰ LO SỢ ĐẤY
 
 (#act1_normal)
 
