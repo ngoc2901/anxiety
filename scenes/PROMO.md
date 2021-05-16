@@ -73,7 +73,7 @@ sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: CÔNG VIỆC CỦA BẠN LÀ BẢO VỆ CÔ ẤYẤY KHỎI *NGUY HIỂM*
+n: VIỆC CỦA BẠN LÀ BẢO VỆ CÔ ẤY KHỎI *NGUY HIỂM*
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
