@@ -14,7 +14,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n3: (game auto-saved)
+n3: (game tự động )
 
 ```
 Game.clearText();
@@ -208,42 +208,42 @@ hong({body:"sigh_2"});
 bb({eyes:"look_down"});
 ```
 
-h: *sigh*
+h: *haizz*
 
 ```
 hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: So what the ^hell^ was the moral of this story?
+h: Vậy thì... cái quái gì là đạo đức trong câu chuyện này?
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: What did we even *learn*? I *was* being stupid, my "friends" *were* using me, and we almost frickin' *died*.
+h: Chúng ta đã *học được gì?* Tôi *đã* ngu đến mức, "bạn bè" của tôi *đã* lợi dụng tôi, và chúng tôi suýt chết *chết*.
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Yeah, not to mention the hospital bill.](#act4a_bill)
+[Vâng, chưa kể đến hóa đơn viện phí.](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Yeah, not to mention the liver damage.](#act4a_liver)
+[Phải, chưa kể đến tổn thương gan.](#act4a_liver)
 {{/if}}
 
-[Yeah, that *was* the worst-case scenario.](#act4a_worst)
+[Vâng, đó *là* trường hợp xấu nhất.](#act4a_worst)
 
-[Yeah, I was right.](#act4a_right)
+[Vâng, tôi đã đúng.](#act4a_right)
 
 # act4a_bill
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Right. I don't think my insurance plan covers "being a dumb^ass^".
+h: Đúng. Tôi không nghĩ rằng chương trình bảo hiểm của tôi bao gồm việc "trở thành một kẻ ^ngu ngốc^".
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
-b: And yet... we survived!
+b: Vậy mà ... chúng tôi vẫn sống sót!
 
 `hong({eyes:"normal"});`
 
@@ -255,7 +255,7 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: We definitely shaved a few years off our life expectancy...
+b: Chúng tôi chắc chắn đã giảm một vài năm tuổi thọ của mình...
 
 `bb({eyes:"surprise"});`
 
@@ -1975,11 +1975,11 @@ b: AAAAA YOU'RE STILL EATING ALONE FIFTEEN CIGARETTES AAAAA
 {{/if}}
 
 {{if _.parasite}}
-b: AAAAA YOU'RE STILL NOT PRODUCTIVE WHILE EATING WE'RE SOCIETY-PARASITES AAAAA
+b: AAAAA BẠN VẪN KHÔNG SẢN XUẤT ĐƯỢC KHI ĂN CHÚNG TÔI LÀ CÁC BỘ PHẬN XÃ HỘI AAAAA
 {{/if}}
 
 {{if _.whitebread}}
-b: AAAAA YOU'RE EATING MORE WHITE BREAD AAAAA
+b: AAAAA BẠN ĐANG ĂN THÊM BÁNH MÌ TRẮNG AAAAA
 {{/if}}
 
 ```
