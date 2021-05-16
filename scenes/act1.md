@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: VÀ ĐÂY LÀ SỰ LO ÂU CỦA CON NGƯỜI
+n: VÀ ĐÂY LÀ SỰ LO SỢ CỦA CÔ ẤY
 
-n: _BẠN_ LÀ SỰ LO ÂU
+n: _BẠN_ LÀ SỰ LO SỢ ĐẤY
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
