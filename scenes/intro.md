@@ -110,7 +110,7 @@ n3: Bây giờ, hãy bắt đầu câu chuyện của chúng ta...
 
 `publish("intro-to-game-2")`
 
-n2: ĐÂY LÀ MỘT GÁI
+n2: ĐÂY LÀ MỘT CÔ GÁI
 
 (...600)
 
