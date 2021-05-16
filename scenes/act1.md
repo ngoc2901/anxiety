@@ -32,9 +32,9 @@ n: CÔNG VIỆC CỦA BẠN LÀ BẢO VỆ CON NGƯỜI KHỎI *NGUY HIỂM*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: THỰC RA, CHƠI LẠI TRÒ NÀY LÀ ĐỂ HỌ VÀO *NGUY HIỂM* NGAY BÂY GIỜ
+n: THỰC RA, CHƠI LẠI TRÒ NÀY LÀ ĐỂ CÔ ẤY VÀO *NGUY HIỂM* NGAY LÚC NÀY
 
-n: NHANH, CẢNH BÁO HỌ ĐI!
+n: NHANH, CẢNH BÁO CÔ ẤY ĐI!
 
 ```
 sfx("squeak");
@@ -42,7 +42,7 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Con người! Nghe này, chúng ta đang gặp nguy hiểm! Người chơi...
+b: Bạn ơi! Nghe này, chúng ta đang gặp nguy hiểm! Người chơi...
 
 [...sẽ tra tấn chúng ta lần nữa!](#act1_replay_torture)
 
@@ -63,7 +63,7 @@ b: Họ sẽ khiến chúng ta co lại thành quả bóng và khóc!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: Họ sẽ khiến chúng ta phá điện thoại bạn vì đưa bạn vào cơn hoảng loạn!
+b: Họ sẽ khiến chúng ta phá điện thoại của bạn vì đưa bạn vào cơn hoảng sợ!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
@@ -96,7 +96,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Đúng, câu chuyện nhìn *chung* là như nhau, nhưng mỗi chương có hai cái kết, cộng với cả những lựa chọn phân nhá--
+h: Đúng, câu chuyện nhìn *chung* là như nhau, nhưng mỗi chương có hai cái kết, cộng với cả những lựa chọn phân nhánhánhnh--
 
 `bb({body:"fear"});`
 
@@ -112,7 +112,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Mâu thuẫn- gì ?
+h: Mâu thuẫn- gì?
 
 `bb({eyes:"normal"});`
 
@@ -170,7 +170,7 @@ h: OK quay lại nhân vật nào.
 Game.clearText();
 ```
 
-n4: (ĐỂ SỰ LO ÂU CỦA _BẠN_ BLAH BLAH BLAH GIỐNG VỚI NỖI SỢ CỦA _BẠN_ NHẤT BLAH BLAH BẠN BIẾT RỒI ĐẤY)
+n4: (ĐỂ SỰ LO SỢ CỦA _BẠN_ BLAH BLAH BLAH GIỐNG VỚI NỖI SỢ CỦA _BẠN_ NHẤT BLAH BLAH BẠN BIẾT RỒI ĐẤY)
 
 ```
 sfx("squeak");
@@ -186,15 +186,15 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Ôi tuyệt, sói của tôi đã quay lại. Tuyyyyệt vời.
+h: Ôi tuyệt,con sói trong tôi đã quay lại. Tuyyyyệt vời.
 
 `hong({eyes:"0_neutral"})`
 
-n: CÔNG VIỆC CỦA BẠN LÀ BẢO VỆ CON NGƯỜI KHỎI *NGUY HIỂM*
+n: CÔNG VIỆC CỦA BẠN LÀ BẢO VỆ CẤYẤY KHỎI *NGUY HIỂM*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: TRONG THỰC TẾ, CHIẾC BÁNH KẸP ĐÓ ĐANG ĐẶT *NGUY HIỂM* CHO CẬU ẤY NGAY BÂY GIỜ
+n: TRONG THỰC TẾ, CHIẾC BÁNH KẸP ĐÓ ĐANG *NGUY HIỂM* CHO CÔ ẤY NGAY LNÀYNÀY
 
 n: NHANH, CẢNH BÁO ĐI!
 
@@ -204,21 +204,21 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Con người! Nghe đây, chúng ta đang gặp nguy hiểm! Nguy hiểm là...
+b: Bạn ơi! Nghe đây, chúng ta đang gặp nguy hiểm! Nguy hiểm là...
 
 `bb({body:"squeeze"})`
 
-n4: (HÃY THỂ HIỆN SỰ LO ÂU CỦA _BẠN_! CHỌN CÁI GIỐNG NHẤT VỚI NỖI SỢ CỦA _BẠN_ MÁCH BẢO BẠN)
+n4: (HÃY THỂ HIỆN SỰ LO ÂU CỦA _BẠN_! CHỌN CÁI GIỐNG NHẤT VỚI NỖI SỢ CỦA _BĐANGĐANG MÁCH BẢO BẠN)
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[Chúng ta lại ăn trưa một mình! Lần nữa!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[Chúng ta lại ăn trưa một mình! Như mọi lần trước!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[Chúng ta không năng động lúc ăn!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[Chúng ta không hoạt động mạnh lúc ăn!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[Bánh trắng đó không tốt cho ta!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[Bánh mì  đó không tốt cho ta!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -233,7 +233,7 @@ b: Bạn biết rằng cô đơn tương đương với chết sớm như khi ta
 
 `bb({mouth:"normal", eyes:"normal_right"})`
 
-b: (Holt-Lunstad 2010, PLoS Medicine)
+b: (Trích từ Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
@@ -322,7 +322,7 @@ bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Lúa mì chế biến sẽ đóng đường trong máu nên họ sẽ cắt đi các chi của ta và ta sẽ-
+b: Lúa mì chế biến sẽ khiến đường trong máu tăng  nên họ sẽ cắt đi các chi của ta và ta sẽ-
 
 `bb({body:"panic"})`
 
@@ -349,7 +349,7 @@ n: NÓ RẤT CÓ HIỆU QUẢ
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Thấy chưa, con người? Tôi là sói bảo vệ trung thành của cậu!
+b: Thấy chưa, bạn tôi? Tôi là sói bảo vệ trung thành của bạn!
 
 `bb({body:"pride_talk"});`
 
@@ -359,7 +359,7 @@ b: Tin vào tâm hồn mình đi! Cảm xúc của bạn luôn có giá trị!
 
 n: LÀM CHO THANH NĂNG LƯỢNG CỦA CON NGƯỜI XUỐNG KHÔNG
 
-n: DỂ BẢO VỆ NHU CẦU VỀ THỂ CHẤT + XÃ HỘI + ĐẠO ĐỨC CỦA HỌ , BẠN CÓ THỂ DÙNG:
+n: ĐỂ BẢO VỆ NHU CẦU VỀ THỂ CHẤT + XÃ HỘI + ĐẠO ĐỨC CỦA CÔ ẤY, BẠN CÓ THỂ DÙNG:
 
 n: SỢ *BỊ HẠI* #harm#
 
@@ -390,7 +390,7 @@ sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: BẢO VỆ CON NGƯỜI CỦA BẠN
+n: BẢO VỆ CHỦ NHÂN CỦA BẠN
 
 n: KHỎI THẾ GIỚI. KHỎI NGƯỜI KHÁC. KHỎI CHÍNH HỌ.
 
@@ -412,34 +412,34 @@ n: VÒNG MỘT: *CHIẾN!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Huh. trang Facebook nói là có bữa tiệc lúc cuối tuần này.
+h: Huh. trang Facebook nói là có bữa tiệc vào cuối tuần này.
 
 `bb({eyes:"uncertain"});`
 
-b: Hình như thằng kỳ lạ đó *luôn* tổ chức bữa tiệc mỗi ngày cuối tuần?
+b: Hình như thằng kỳ lạ đó *luôn* tổ chức tiệc mỗi ngày cuối tuần?
 
 `bb({eyes:"uncertain_right"});`
 
-b: Họ cố gắng lấp cái khoảng trống nào? Họ chắc là hỗn loạn từ bên trong rồi!
+b: Nó đang cố gắng che đậy điều nào đó? Khá chắc là rất hỗn loạn trong bữa tiệc ấy rồi!
 
 `hong({eyes:"surprise"});`
 
-h: Với lại, mình có lời mời?
+h: Ô này, mình có lời mời tham gia?
 
 `bb({eyes:"fear", mouth:"normal"});`
 
 b: Được rồi!
 
-[Nói có, hoặc ta sẽ chết vì cô đơn!](#act1c_loner)
+[Đến đó, hoặc ta sẽ chết vì cô đơn!](#act1c_loner)
 
-[Nói không, nó có cả đống thuốc độc!](#act1c_drugs)
+[Không đến, nó có cả thuốc kì dị thì sao!](#act1c_drugs)
 
-[Bỏ qua đi, ta sẽ làm bữa tiệc buồn.](#act1c_sad)
+[Không quan tâm, ta sẽ tự làm bữa tiệc một mình.](#act1c_sad)
 
 # act1c_loner
 
 {{if _.fifteencigs}}
-b: Mười lăm điếu thuốc một ngày, con người! Mười lăm!
+b: Mười lăm điếu thuốc một ngày, bạn ơi! Mười lăm đấy!
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -498,7 +498,7 @@ b: Phân cá voi, con người! Phân cá voi!
 `bb({mouth:"small", eyes:"fear"});`
 
 {{if _.whitebread}}
-b: hoặc tệ hơn... BÁNH MÌ TRẮNG
+b: hoặc tệ hơn... BÁNH MÌ KHÔNG
 {{/if}}
 
 {{if _.whitebread}}
@@ -541,7 +541,7 @@ h: Mình sẽ nói không.
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
 {{if _.fifteencigs}}
-b: Tất cả ta làm là khóc ở góc tường về cách cô đơn chết người như hút 15 điếu thuốc.
+b: Tất cả ta làm là khóc ở góc tường và chờ cô đơn giết ta như cách của 15 điếu thuốc đã làm.
 {{/if}}
 
 {{if _.parasite}}
@@ -563,13 +563,13 @@ h: trời mình không hiểu sao.
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: Nên nếu ta đi ta sẽ làm họ thấy tệ, nhưng nếu ta từ chối lời mời của họ ta vẫn sẽ làm họ thấy tệ!
+b: Nên nếu ta đi ta sẽ làm họ thấy ta là người xấu, nhưng nếu ta từ chối lời mời của họ ta vẫn sẽ làm họ thấy I'm BAD !
 
 `bb({body:"fear", eyes:"fear"});`
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-b: TẤT CẢ TA LÀM LÀ LÀM HỌ THẤY TỆ, NÊN TA CẦN THẤY TỆ
+b: TẤT CẢ TA LÀM LÀ CHO HỌ THẤY TỆ, NÊN TA CẦN TRỞ THÀNH NGƯỜI XẤU
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -580,9 +580,9 @@ attack("18p", "bad");
 
 `hong({mouth:"anger", eyes:"anger"});`
 
-h: Ugh. Nếu nó làm cậu im mồm thì được.
+h: Ugh. Nếu nó làm cậu ngừng lãi nhãi thì được.
 
-h: Mình sẽ bỏ qua lời .
+h: Mình sẽ bỏ qua lời mời.
 
 `_.partyinvite="ignore"`
 
@@ -595,11 +595,11 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: Dù sao. Facebook quá nhiều rồi. Mình cần làm gì bình tĩnh hơn, ít gây ra lo âu .
+h: Dù sao. Facebook hôm này quá nhiều rồi. Mình cần làm gì bình tĩnh hơn, ít gây ra lo sợ hơn.
 
 `hong({eyes:"neutral"});`
 
-h: Cái gì mới trên Twitter?
+h: Cái gì mới trên Twitter này?
 
 `bb({eyes:"look"});`
 
