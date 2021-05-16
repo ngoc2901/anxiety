@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: ĐÂY LÀ MỘT CÔ GÁI
+n2: ĐÂY LÀ MỘT  GÁI
 
 (...600)
 
