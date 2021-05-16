@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: ĐÂY LÀ MỘT  GÁI
+n2: ĐÂY LÀ MỘCÔCÔ GÁI
 
 (...600)
 
@@ -73,7 +73,7 @@ sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: CÔNG VIỆC CỦA BẠN LÀ BẢO VỆ CON NGƯỜI KHỎI *NGUY HIỂM*
+n: CÔNG VIỆC CỦA BẠN LÀ BẢO VỆ CÔ ẤYẤY KHỎI *NGUY HIỂM*
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
@@ -88,7 +88,7 @@ h: Ừ mình không hiểu sao mình không chỉ cần ngồi và nghe suy ngh�
 
 `hong({eyes:"neutral"});`
 
-n: NHANH, CẢNH BÁO HỌ VỀ *NGUY HIỂM!*
+n: NHANH, CẢNH BÁO CÔ ẤY VỀ *NGUY HIỂM!*
 
 ```
 bb({eyes:"look"});
